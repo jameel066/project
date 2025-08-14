@@ -1,0 +1,9 @@
+version: v1.25.0
+ignore:
+  SNYK-CPP-FIREBASEESP32-123456: # Hypothetical vulnerability ID
+    - '*':
+        reason: "FirebaseESP32 vulnerability not exploitable in local network"
+        expires: "2026-08-14T14:00:00Z"
+exclude:
+  - examples/ # Exclude example sketches if present
+  - tests/ # Exclude test files if present
